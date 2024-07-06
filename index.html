@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <img src="atto.jpeg" width="200px">
+    <img src="atto.jpeg" width="130px">
     <H1 style="text-align: center;">Folha De Parada Digital.</H1>
     <br>
     <h2 style="text-align: center;">
@@ -26,22 +26,20 @@
     </h2>
     <form action="https://formsubmit.co/ajax/ianitalocorp@gmail.com" method="POST">
         <h2>Data <b>Inicial</b> Da Parada.</h2>
-        <div class="col-6 col-s-12">
-            <fieldset>
-                <legend>Data</legend>
-                <div class="roow">
-                    <div class="col-4 col-s-12">
-                        <label for="txtData" class="ròtulo">Data:</label>
-                        <input type="date" id="txtData" name="data" class="caixa-texto">
-                    </div>
 
-                </div>
-            </fieldset>
-        </div><br>
-        <input required type="date" id="txtdate" name="folha de parada, corte." class="caixa-texto"><br>
+        <div>
+            <label for="txtData" class="ròtulo"><b>Data Inicial:</b></label>
+            <input required type="date" id="txtdate" name="Folha De Parada, Corte." class="caixa-texto">
+
+        </div>
         <hr>
-        <h2>Hora Inicial Da Parada.</h2>
-        <input required type="time" id="txthora" name="Hora Inicial" class="caixa-texto"><br>
+        <div>
+            <h2>Hora Inicial Da Parada.</h2>
+            <label for="txthora" class="ròtulo"><b>Hora Inicial:</b></label>
+
+            <input required type="time" id="txthora" name="Hora Inicial" class="caixa-texto">
+        </div>
+        <br>
         <hr>
 
 
@@ -91,9 +89,9 @@
             placeholder="Descrição De Parada.">
         <hr>
         <h2>Parada:</h2>
-        <label for="Geral">Geral</label>
+        <label for="Geral"><b>Geral:</b></label>
         <input required type="radio" id="Geral" name="Parada Geral/Equipamento" value="Geral."><br>
-        <label for="Equipamento">Equipamento</label>
+        <label for="Equipamento"><b>Equipamento:</b></label>
         <input type="radio" id="Equipamento" name="Parada Geral/Equipamento" value="Equipamento.">
         <hr>
         <h2>Número Da Frota Do Equipamento Parado:<br> <sub>(Em Caso De Manutenção.)</sub></h2>
@@ -105,12 +103,19 @@
         <input required type="textarea" id="textarea" name="Número Da O.S." class="caixa-texto"
             placeholder="Número Da O.S.">
         <hr>
-        <h2>Data Final Da Parada.</h2>
-        <input required type="date" id="txtdate" name="Data Final Da parada." class="caixa-texto"><br>
+        <div>
+            <h2>Data Final da parada.</h2>
+            <label for="txtData" class="ròtulo"><b>Data Final:</b></label>
+            <input required type="date" id="txtdate" name="Data Final Da Parada" class="caixa-texto">
+
+        </div>
         <hr>
-        <h2>Hora Final Da Parada.</h2>
-        <input required type="time" id="txthora" name="Hora Final Da Parada" class="caixa-texto"><br>
-        <hr>
+        <div>
+            <h2>Hora final Da Parada.</h2>
+            <label for="txthora" class="ròtulo"><b>Hora final:</b></label>
+
+            <input required type="time" id="txthora" name="Hora Final" class="caixa-texto">
+        </div>
         <h2> Responsável Pelo Apontamento:</h2>
 
         <input required type="textarea" id="textarea" name="Responsável Pelo Apontamento." class="caixa-texto"
